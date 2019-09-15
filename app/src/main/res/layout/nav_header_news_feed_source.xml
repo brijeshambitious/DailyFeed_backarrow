@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/navigation_layout"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <LinearLayout
+        android:id="@+id/news_buttons_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="News Sources"
+            android:textColor="@color/colorAccent"
+            android:padding="12dp"
+            android:textSize="25sp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Powered by newsAPI.org"
+            android:padding="5dp"
+            android:gravity="center"
+            android:textColor="@color/colorAccent" />
+        
+        <ScrollView
+            android:layout_width="match_parent"
+            android:scrollbars="none"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+      <Button
+            android:id="@+id/news_option_business"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="15sp"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:text="Business"
+            android:background="@android:color/white"
+            />
+
+        <Button
+            android:id="@+id/news_option_entertainment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="15sp"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:text="Entertainment"
+            android:background="@android:color/white"
+            />
+
+        <Button
+            android:id="@+id/news_option_general"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="15sp"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:text="General"
+            android:background="@android:color/white"
+            />
+
+        <Button
+            android:id="@+id/news_option_sport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="15sp"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:text="Sports"
+            android:background="@android:color/white"
+            />
+
+        <Button
+            android:id="@+id/news_option_technology"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="15sp"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:text="Technology"
+            android:background="@android:color/white"
+            />
+
+        <Button
+            android:id="@+id/news_option_science_nature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="15sp"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:text="Science and nature"
+            android:background="@android:color/white"
+            />
+
+        <Button
+            android:id="@+id/news_option_gaming"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="15sp"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:text="Gaming"
+            android:background="@android:color/white"
+            />
+
+        <Button
+            android:id="@+id/news_option_music"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="15sp"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:text="Music"
+            android:background="@android:color/white"
+            />
+
+        <Button
+            android:id="@+id/news_option_politics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="15sp"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:text="Politics"
+            android:background="@android:color/white"
+            />
+
+        <Button
+            android:id="@+id/news_option_health_medical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="15sp"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:text="Health and Medicine"
+            android:background="@android:color/white"
+            />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

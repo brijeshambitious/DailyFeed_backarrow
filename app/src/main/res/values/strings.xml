@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">NewsHunt</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="news_item_title">News Title</string>
+    <string name="news_item_source">News Source</string>
+    <string name="title_activity_news_feed_dashboard">NewsFeed</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_news_headlines">NewsHeadlines</string>
+
+    <string name="share">Share</string>
+    <string name="api_key">afd1d26d065744cb80a248a467a2e7a0</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+
+</resources>
